@@ -1,8 +1,8 @@
 # OpenGL Tutorials
 ## from http://ogldev.atspace.co.uk
 
-# Tutorial 01
-## 윈도우 열기
+## Tutorial 01
+### 윈도우 열기
 
-### 배경
-  ㄴㅇㅁㅇㅁㄴㅇㄴㅁㅇ
+#### 배경
+              ㄴㅇㅁㅇㅁㄴㅇㄴㅁㅇ
