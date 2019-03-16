@@ -46,10 +46,8 @@ extension management
 ```
 store the handle of the vertex buffer object
 
-GLuint m
+GLuint act like pointer
 
-Vertex buffer objects
-Store vertex in 3d
 Store data in video memory and provide the shortest access time to the GPU rather than call every single vertex.
 ```
  #### mapping
@@ -91,9 +89,9 @@ means that the buffer contains the indices of the vertices in another buffer.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjAwMDE0MSw4MjExOTE3NTcsNjE0Mj
-M4NDIsMTUxODQ1MTMwOCwxOTEwNDI2NzUyLC03MzYwODM0NDgs
-LTEyNTkxOTIyOTQsODU0MjA2MzEyLDE1NzkzNTAxMzgsOTc4OD
-gyNjg4LC0xNzMwMzc0NjY0LC04NTg5MTQ2LDIxMTc5ODEyNTEs
-LTIwNTc1MzA4NzEsLTY3NTY5OTEsMjY3ODI4NjddfQ==
+eyJoaXN0b3J5IjpbLTE0NTI5NDE0NjUsODIxMTkxNzU3LDYxND
+IzODQyLDE1MTg0NTEzMDgsMTkxMDQyNjc1MiwtNzM2MDgzNDQ4
+LC0xMjU5MTkyMjk0LDg1NDIwNjMxMiwxNTc5MzUwMTM4LDk3OD
+g4MjY4OCwtMTczMDM3NDY2NCwtODU4OTE0NiwyMTE3OTgxMjUx
+LC0yMDU3NTMwODcxLC02NzU2OTkxLDI2NzgyODY3XX0=
 -->
