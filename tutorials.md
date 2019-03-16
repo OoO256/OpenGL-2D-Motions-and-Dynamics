@@ -67,7 +67,8 @@ OpenGL bind the handle to a target name and then execute commands on that target
 
 #### handle & target
 ```
-TOLEARN
+IDK actually
+I assume that handle means address
 ```
 
 #### GL_ARRAY_BUFFER
@@ -85,9 +86,9 @@ means that the buffer contains the indices of the vertices in another buffer.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxODQ1MTMwOCwxOTEwNDI2NzUyLC03Mz
-YwODM0NDgsLTEyNTkxOTIyOTQsODU0MjA2MzEyLDE1NzkzNTAx
-MzgsOTc4ODgyNjg4LC0xNzMwMzc0NjY0LC04NTg5MTQ2LDIxMT
-c5ODEyNTEsLTIwNTc1MzA4NzEsLTY3NTY5OTEsMjY3ODI4Njdd
-fQ==
+eyJoaXN0b3J5IjpbLTE4MzUxODAyMjgsMTUxODQ1MTMwOCwxOT
+EwNDI2NzUyLC03MzYwODM0NDgsLTEyNTkxOTIyOTQsODU0MjA2
+MzEyLDE1NzkzNTAxMzgsOTc4ODgyNjg4LC0xNzMwMzc0NjY0LC
+04NTg5MTQ2LDIxMTc5ODEyNTEsLTIwNTc1MzA4NzEsLTY3NTY5
+OTEsMjY3ODI4NjddfQ==
 -->
