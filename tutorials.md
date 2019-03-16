@@ -48,12 +48,16 @@ Vertex buffer objects
 Store vertex in 3d
 Store data in video memory and provide the shortest access time to the GPU rather than call every single vertex.
 ```
- 
+ #### mapping
+ ```
+[-1.0, 1.0] -> coordinates in screen
+
+```
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc4ODgyNjg4LC0xNzMwMzc0NjY0LC04NT
-g5MTQ2LDIxMTc5ODEyNTEsLTIwNTc1MzA4NzEsLTY3NTY5OTEs
-MjY3ODI4NjddfQ==
+eyJoaXN0b3J5IjpbLTIwNjU2NTU0NzQsOTc4ODgyNjg4LC0xNz
+MwMzc0NjY0LC04NTg5MTQ2LDIxMTc5ODEyNTEsLTIwNTc1MzA4
+NzEsLTY3NTY5OTEsMjY3ODI4NjddfQ==
 -->
