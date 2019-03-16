@@ -35,9 +35,15 @@ concept of state in OpenGL.
 이런 결정을 매 함수 호출시마다 하지 않고 state로 지정하면 함수의 파라미터를 줄일 수 있다.
 ```
 
+#### GLEW
+```
+extension management
+```
+ 
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExNzk4MTI1MSwtMjA1NzUzMDg3MSwtNj
-c1Njk5MSwyNjc4Mjg2N119
+eyJoaXN0b3J5IjpbMTI4OTcxMTIyLDIxMTc5ODEyNTEsLTIwNT
+c1MzA4NzEsLTY3NTY5OTEsMjY3ODI4NjddfQ==
 -->
