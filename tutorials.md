@@ -52,12 +52,14 @@ Store data in video memory and provide the shortest access time to the GPU rathe
  ```
 converting in rasterizer
 X, Y, Z [-1.0, 1.0] -> coordinates in screen
+
+(0, 0, 0) means center of the screen
 ```
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3OTM1MDEzOCw5Nzg4ODI2ODgsLTE3Mz
-AzNzQ2NjQsLTg1ODkxNDYsMjExNzk4MTI1MSwtMjA1NzUzMDg3
-MSwtNjc1Njk5MSwyNjc4Mjg2N119
+eyJoaXN0b3J5IjpbODU0MjA2MzEyLDE1NzkzNTAxMzgsOTc4OD
+gyNjg4LC0xNzMwMzc0NjY0LC04NTg5MTQ2LDIxMTc5ODEyNTEs
+LTIwNTc1MzA4NzEsLTY3NTY5OTEsMjY3ODI4NjddfQ==
 -->
