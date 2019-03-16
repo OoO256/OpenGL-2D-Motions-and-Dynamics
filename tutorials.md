@@ -23,10 +23,12 @@ back buffer에 화면이 다 그려지면, 두 버퍼를 swap한다.
 
 
 trearing을 방지하기 위해 Page flipping을 사용하기도 한다.
+https://blog.seulgi.kim/2014/05/flip-copy-double-buffering-2.html
 ```
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3NTY5OTEsMjY3ODI4NjddfQ==
+eyJoaXN0b3J5IjpbLTIwNTc1MzA4NzEsLTY3NTY5OTEsMjY3OD
+I4NjddfQ==
 -->
