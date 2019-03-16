@@ -21,10 +21,12 @@ Windowing systems 자체에서 OpenGL을 위한 바인딩을 제공한다. OpenG
 back buffer에 화면을 그리고, front buffer에서 화면으로 출력한다.
 back buffer에 화면이 다 그려지면, 두 버퍼를 swap한다.
 
+
+trearing을 방지하기 위해 Page flipping을 사용하기도 한다.
 ```
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNTI2MzA1NSwyNjc4Mjg2N119
+eyJoaXN0b3J5IjpbLTY3NTY5OTEsMjY3ODI4NjddfQ==
 -->
