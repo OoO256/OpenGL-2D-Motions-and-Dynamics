@@ -50,14 +50,14 @@ Store data in video memory and provide the shortest access time to the GPU rathe
 ```
  #### mapping
  ```
-[-1.0, 1.0] -> coordinates in screen
-
+converting in rasterizer
+X, Y, Z [-1.0, 1.0] -> coordinates in screen
 ```
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjU2NTU0NzQsOTc4ODgyNjg4LC0xNz
-MwMzc0NjY0LC04NTg5MTQ2LDIxMTc5ODEyNTEsLTIwNTc1MzA4
-NzEsLTY3NTY5OTEsMjY3ODI4NjddfQ==
+eyJoaXN0b3J5IjpbMTU3OTM1MDEzOCw5Nzg4ODI2ODgsLTE3Mz
+AzNzQ2NjQsLTg1ODkxNDYsMjExNzk4MTI1MSwtMjA1NzUzMDg3
+MSwtNjc1Njk5MSwyNjc4Mjg2N119
 -->
