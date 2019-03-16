@@ -63,9 +63,12 @@ X, Y, Z [-1.0, 1.0] -> coordinates in screen
 ```
 generating objects of various types
 ```
-#### binding
+#### glBindBuffer(GL_ARRAY_BUFFER, VBO)
 ```
-OpenGL bind the handle to a target name and then execute commands on that target.
+GL_ARRAY_BUFFER is target
+VBO is handle
+
+GL_ARRAY_BUFFER = VBO;
 ```
 
 #### handle & target
@@ -90,7 +93,7 @@ means that the buffer contains the indices of the vertices in another buffer.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MDA0MjkwMSw4MjExOTE3NTcsNjE0Mj
+eyJoaXN0b3J5IjpbMTQ1NDAwODY3Niw4MjExOTE3NTcsNjE0Mj
 M4NDIsMTUxODQ1MTMwOCwxOTEwNDI2NzUyLC03MzYwODM0NDgs
 LTEyNTkxOTIyOTQsODU0MjA2MzEyLDE1NzkzNTAxMzgsOTc4OD
 gyNjg4LC0xNzMwMzc0NjY0LC04NTg5MTQ2LDIxMTc5ODEyNTEs
