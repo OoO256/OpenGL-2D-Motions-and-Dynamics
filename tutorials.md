@@ -56,10 +56,17 @@ X, Y, Z [-1.0, 1.0] -> coordinates in screen
 (0, 0, 0) means center of the screen
 ```
 
+#### glGenBuffers
+```
+generating objects of various types
+
+```
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU0MjA2MzEyLDE1NzkzNTAxMzgsOTc4OD
-gyNjg4LC0xNzMwMzc0NjY0LC04NTg5MTQ2LDIxMTc5ODEyNTEs
-LTIwNTc1MzA4NzEsLTY3NTY5OTEsMjY3ODI4NjddfQ==
+eyJoaXN0b3J5IjpbOTgxMzEyODM3LDg1NDIwNjMxMiwxNTc5Mz
+UwMTM4LDk3ODg4MjY4OCwtMTczMDM3NDY2NCwtODU4OTE0Niwy
+MTE3OTgxMjUxLC0yMDU3NTMwODcxLC02NzU2OTkxLDI2NzgyOD
+Y3XX0=
 -->
