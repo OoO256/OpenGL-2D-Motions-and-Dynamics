@@ -17,11 +17,12 @@ Windowing systems 자체에서 OpenGL을 위한 바인딩을 제공한다. OpenG
 
 ```
 화면이 갑자기 변하는 것을 막기 위해
-
+이전 버퍼를 미리 화면에 뿌려놓고 write함
+그러려면 screen buffer외에 buffer를 하나 더 필요함
 ```
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0OTIzMzg0MCwyNjc4Mjg2N119
+eyJoaXN0b3J5IjpbLTI0OTc1ODY0NiwyNjc4Mjg2N119
 -->
