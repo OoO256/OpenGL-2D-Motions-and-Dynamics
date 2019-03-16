@@ -13,12 +13,15 @@ Windowing systems 자체에서 OpenGL을 위한 바인딩을 제공한다. OpenG
 그래서 GLUT : OpenGL utility library 가 high level library 
 ```
 
+#### GLUT_DOUBLE : DOUBLE BUFFER
 
+```
+화면이 갑자기 변하는 것을 막기 위해
 
-
+```
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzM1NjA5NTQsMjY3ODI4NjddfQ==
+eyJoaXN0b3J5IjpbLTY0OTIzMzg0MCwyNjc4Mjg2N119
 -->
