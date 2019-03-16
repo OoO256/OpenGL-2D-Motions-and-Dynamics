@@ -59,14 +59,13 @@ X, Y, Z [-1.0, 1.0] -> coordinates in screen
 #### glGenBuffers(num_object, address)
 ```
 generating objects of various types
-
 ```
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTkxOTIyOTQsODU0MjA2MzEyLDE1Nz
-kzNTAxMzgsOTc4ODgyNjg4LC0xNzMwMzc0NjY0LC04NTg5MTQ2
-LDIxMTc5ODEyNTEsLTIwNTc1MzA4NzEsLTY3NTY5OTEsMjY3OD
-I4NjddfQ==
+eyJoaXN0b3J5IjpbLTczNjA4MzQ0OCwtMTI1OTE5MjI5NCw4NT
+QyMDYzMTIsMTU3OTM1MDEzOCw5Nzg4ODI2ODgsLTE3MzAzNzQ2
+NjQsLTg1ODkxNDYsMjExNzk4MTI1MSwtMjA1NzUzMDg3MSwtNj
+c1Njk5MSwyNjc4Mjg2N119
 -->
