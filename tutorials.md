@@ -40,12 +40,12 @@ concept of state in OpenGL.
 extension management
 ```
 
-#### 
+#### V
  
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMyMzIyNzM4LDIxMTc5ODEyNTEsLTIwNT
+eyJoaXN0b3J5IjpbNjA5Mjk3NTQ4LDIxMTc5ODEyNTEsLTIwNT
 c1MzA4NzEsLTY3NTY5OTEsMjY3ODI4NjddfQ==
 -->
