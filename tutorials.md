@@ -42,16 +42,16 @@ extension management
 
 #### VBO
 ```
-vertex buffer objects
-store vertex in 3d
-They are buffers that can be stored in video memory and provide the shortest access time to the GPU so they are definitely recommended.
+Vertex buffer objects
+Store vertex in 3d
+Store data in video memory and provide the shortest access time to the GPU rather than call every single vertex.
 ```
  
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNjczNjQ0NSwtODU4OTE0NiwyMTE3OT
-gxMjUxLC0yMDU3NTMwODcxLC02NzU2OTkxLDI2NzgyODY3XX0=
+eyJoaXN0b3J5IjpbLTE3MzAzNzQ2NjQsLTg1ODkxNDYsMjExNz
+k4MTI1MSwtMjA1NzUzMDg3MSwtNjc1Njk5MSwyNjc4Mjg2N119
 
 -->
