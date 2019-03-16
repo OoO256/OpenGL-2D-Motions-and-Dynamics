@@ -43,7 +43,7 @@ extension management
 #### VBO
 ```
 vertex buffer objects
-store vertex
+store vertex in 3d 
 
 ```
  
@@ -51,6 +51,7 @@ store vertex
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1ODkxNDYsMjExNzk4MTI1MSwtMjA1Nz
-UzMDg3MSwtNjc1Njk5MSwyNjc4Mjg2N119
+eyJoaXN0b3J5IjpbMTc1MjA4NTM1MCwtODU4OTE0NiwyMTE3OT
+gxMjUxLC0yMDU3NTMwODcxLC02NzU2OTkxLDI2NzgyODY3XX0=
+
 -->
