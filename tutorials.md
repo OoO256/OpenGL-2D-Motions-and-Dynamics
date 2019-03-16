@@ -60,12 +60,12 @@ X, Y, Z [-1.0, 1.0] -> coordinates in screen
 ```
 generating objects of various types
 ```
-
+###
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNjA4MzQ0OCwtMTI1OTE5MjI5NCw4NT
-QyMDYzMTIsMTU3OTM1MDEzOCw5Nzg4ODI2ODgsLTE3MzAzNzQ2
-NjQsLTg1ODkxNDYsMjExNzk4MTI1MSwtMjA1NzUzMDg3MSwtNj
-c1Njk5MSwyNjc4Mjg2N119
+eyJoaXN0b3J5IjpbLTg1OTEwMTUwNywtNzM2MDgzNDQ4LC0xMj
+U5MTkyMjk0LDg1NDIwNjMxMiwxNTc5MzUwMTM4LDk3ODg4MjY4
+OCwtMTczMDM3NDY2NCwtODU4OTE0NiwyMTE3OTgxMjUxLC0yMD
+U3NTMwODcxLC02NzU2OTkxLDI2NzgyODY3XX0=
 -->
