@@ -18,14 +18,13 @@ Windowing systems 자체에서 OpenGL을 위한 바인딩을 제공한다. OpenG
 ```
 화면이 갑자기 변하는 것을 막기 위해
 이전 버퍼를 미리 화면에 뿌려놓고 write함
-back buffer에 화면을 그리고 그림이 우front buffer에서 화면으로 추
-그러려면 screen buffer외에 buffer를 하나 더 필요함
+back buffer에 화면을 그리고, front buffer에서 화면으로 출력한다.
+back buffer에 화면이 다 그려지면, 두 버퍼를 swap한다.
 
-프레임 전환 시, 
 ```
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU3MzQyNjk4LDI2NzgyODY3XX0=
+eyJoaXN0b3J5IjpbMTAxNTI2MzA1NSwyNjc4Mjg2N119
 -->
