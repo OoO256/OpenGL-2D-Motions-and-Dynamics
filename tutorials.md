@@ -71,13 +71,6 @@ VBO is handle
 GL_ARRAY_BUFFER = VBO;
 ```
 
-#### handle & target
-```
-IDK actually
-I assume that handle means GLuint address
-and target means what that is
-```
-
 #### GL_ARRAY_BUFFER
 ```
 the buffer will contain an array of vertices
@@ -87,13 +80,12 @@ the buffer will contain an array of vertices
 ```
 means that the buffer contains the indices of the vertices in another buffer.
 ```
-
-
+#### glBufferData
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NDAwODY3Niw4MjExOTE3NTcsNjE0Mj
+eyJoaXN0b3J5IjpbLTgwMTc1NDczMyw4MjExOTE3NTcsNjE0Mj
 M4NDIsMTUxODQ1MTMwOCwxOTEwNDI2NzUyLC03MzYwODM0NDgs
 LTEyNTkxOTIyOTQsODU0MjA2MzEyLDE1NzkzNTAxMzgsOTc4OD
 gyNjg4LC0xNzMwMzc0NjY0LC04NTg5MTQ2LDIxMTc5ODEyNTEs
