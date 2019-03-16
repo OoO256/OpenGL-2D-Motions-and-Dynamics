@@ -70,10 +70,13 @@ OpenGL bind the handle to a target name and then execute commands on that target
 
 ```
 
+### GL_ARRAY_BUFFER
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMDQyNjc1MiwtNzM2MDgzNDQ4LC0xMj
-U5MTkyMjk0LDg1NDIwNjMxMiwxNTc5MzUwMTM4LDk3ODg4MjY4
-OCwtMTczMDM3NDY2NCwtODU4OTE0NiwyMTE3OTgxMjUxLC0yMD
-U3NTMwODcxLC02NzU2OTkxLDI2NzgyODY3XX0=
+eyJoaXN0b3J5IjpbMTU0NTEwNTEyOSwxOTEwNDI2NzUyLC03Mz
+YwODM0NDgsLTEyNTkxOTIyOTQsODU0MjA2MzEyLDE1NzkzNTAx
+MzgsOTc4ODgyNjg4LC0xNzMwMzc0NjY0LC04NTg5MTQ2LDIxMT
+c5ODEyNTEsLTIwNTc1MzA4NzEsLTY3NTY5OTEsMjY3ODI4Njdd
+fQ==
 -->
