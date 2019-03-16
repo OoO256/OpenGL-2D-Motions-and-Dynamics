@@ -60,11 +60,19 @@ X, Y, Z [-1.0, 1.0] -> coordinates in screen
 ```
 generating objects of various types
 ```
-###
+#### binding
+```
+OpenGL bind the handle to a target name and then execute commands on that target.
+```
+
+#### handle
+```
+
+```
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1OTEwMTUwNywtNzM2MDgzNDQ4LC0xMj
+eyJoaXN0b3J5IjpbMTkxMDQyNjc1MiwtNzM2MDgzNDQ4LC0xMj
 U5MTkyMjk0LDg1NDIwNjMxMiwxNTc5MzUwMTM4LDk3ODg4MjY4
 OCwtMTczMDM3NDY2NCwtODU4OTE0NiwyMTE3OTgxMjUxLC0yMD
 U3NTMwODcxLC02NzU2OTkxLDI2NzgyODY3XX0=
