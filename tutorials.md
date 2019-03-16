@@ -44,6 +44,8 @@ extension management
 
 #### VBO
 ```
+store the handle of the vertex buffer object
+
 Vertex buffer objects
 Store vertex in 3d
 Store data in video memory and provide the shortest access time to the GPU rather than call every single vertex.
@@ -87,9 +89,9 @@ means that the buffer contains the indices of the vertices in another buffer.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE0MjM4NDIsMTUxODQ1MTMwOCwxOTEwND
-I2NzUyLC03MzYwODM0NDgsLTEyNTkxOTIyOTQsODU0MjA2MzEy
-LDE1NzkzNTAxMzgsOTc4ODgyNjg4LC0xNzMwMzc0NjY0LC04NT
-g5MTQ2LDIxMTc5ODEyNTEsLTIwNTc1MzA4NzEsLTY3NTY5OTEs
-MjY3ODI4NjddfQ==
+eyJoaXN0b3J5IjpbODIxMTkxNzU3LDYxNDIzODQyLDE1MTg0NT
+EzMDgsMTkxMDQyNjc1MiwtNzM2MDgzNDQ4LC0xMjU5MTkyMjk0
+LDg1NDIwNjMxMiwxNTc5MzUwMTM4LDk3ODg4MjY4OCwtMTczMD
+M3NDY2NCwtODU4OTE0NiwyMTE3OTgxMjUxLC0yMDU3NTMwODcx
+LC02NzU2OTkxLDI2NzgyODY3XX0=
 -->
