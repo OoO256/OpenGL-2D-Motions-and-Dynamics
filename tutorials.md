@@ -40,12 +40,17 @@ concept of state in OpenGL.
 extension management
 ```
 
-#### V
+#### VBO
+```
+vertex buffer objects
+store vertex
+
+```
  
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA5Mjk3NTQ4LDIxMTc5ODEyNTEsLTIwNT
-c1MzA4NzEsLTY3NTY5OTEsMjY3ODI4NjddfQ==
+eyJoaXN0b3J5IjpbLTg1ODkxNDYsMjExNzk4MTI1MSwtMjA1Nz
+UzMDg3MSwtNjc1Njk5MSwyNjc4Mjg2N119
 -->
