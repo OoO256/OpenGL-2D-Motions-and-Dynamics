@@ -31,12 +31,13 @@ https://blog.seulgi.kim/2014/05/flip-copy-double-buffering-2.html
 ```
 concept of state in OpenGL.
 렌더링은 적은 파라미터를 가진 함수만으로 할 수 있는게 아니다.
-결정할게 많다. 
+세이더, 버퍼, 플레그 등 결정할게 많다. 
+이런 결정을 매 함수 호출시마다 하지 않고 state로 지정하면 함수의 파라미터를 줄일 수 있다.
 ```
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE4OTYyMDg3LC0yMDU3NTMwODcxLC02Nz
-U2OTkxLDI2NzgyODY3XX0=
+eyJoaXN0b3J5IjpbMjExNzk4MTI1MSwtMjA1NzUzMDg3MSwtNj
+c1Njk5MSwyNjc4Mjg2N119
 -->
