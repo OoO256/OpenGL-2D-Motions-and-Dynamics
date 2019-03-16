@@ -26,9 +26,17 @@ trearing을 방지하기 위해 Page flipping을 사용하기도 한다.
 https://blog.seulgi.kim/2014/05/flip-copy-double-buffering-2.html
 ```
 
+#### glClearColor(0.0f, 0.0f, 0.0f, 0.0f);
+
+```
+concept of state in OpenGL.
+렌더링은 적은 파라미터를 가진 함수만으로 할 수 있는게 아니다.
+결정할게 많다. 
+```
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTc1MzA4NzEsLTY3NTY5OTEsMjY3OD
-I4NjddfQ==
+eyJoaXN0b3J5IjpbNTE4OTYyMDg3LC0yMDU3NTMwODcxLC02Nz
+U2OTkxLDI2NzgyODY3XX0=
 -->
