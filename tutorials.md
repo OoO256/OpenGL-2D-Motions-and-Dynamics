@@ -34,6 +34,8 @@ concept of state in OpenGL.
 세이더, 버퍼, 플레그 등 결정할게 많다. 
 이런 결정을 매 함수 호출시마다 하지 않고 state로 지정하면 함수의 파라미터를 줄일 수 있다.
 ```
+## Tutorial 02
+### # Hello dot!
 
 #### GLEW
 ```
@@ -51,7 +53,7 @@ Store data in video memory and provide the shortest access time to the GPU rathe
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzAzNzQ2NjQsLTg1ODkxNDYsMjExNz
-k4MTI1MSwtMjA1NzUzMDg3MSwtNjc1Njk5MSwyNjc4Mjg2N119
-
+eyJoaXN0b3J5IjpbOTc4ODgyNjg4LC0xNzMwMzc0NjY0LC04NT
+g5MTQ2LDIxMTc5ODEyNTEsLTIwNTc1MzA4NzEsLTY3NTY5OTEs
+MjY3ODI4NjddfQ==
 -->
