@@ -42,9 +42,11 @@ concept of state in OpenGL.
 extension management
 ```
 
-#### VBO
+#### GLuint VBO;
 ```
 store the handle of the vertex buffer object
+
+GLuint m
 
 Vertex buffer objects
 Store vertex in 3d
@@ -89,9 +91,9 @@ means that the buffer contains the indices of the vertices in another buffer.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIxMTkxNzU3LDYxNDIzODQyLDE1MTg0NT
-EzMDgsMTkxMDQyNjc1MiwtNzM2MDgzNDQ4LC0xMjU5MTkyMjk0
-LDg1NDIwNjMxMiwxNTc5MzUwMTM4LDk3ODg4MjY4OCwtMTczMD
-M3NDY2NCwtODU4OTE0NiwyMTE3OTgxMjUxLC0yMDU3NTMwODcx
-LC02NzU2OTkxLDI2NzgyODY3XX0=
+eyJoaXN0b3J5IjpbLTEyMjAwMDE0MSw4MjExOTE3NTcsNjE0Mj
+M4NDIsMTUxODQ1MTMwOCwxOTEwNDI2NzUyLC03MzYwODM0NDgs
+LTEyNTkxOTIyOTQsODU0MjA2MzEyLDE1NzkzNTAxMzgsOTc4OD
+gyNjg4LC0xNzMwMzc0NjY0LC04NTg5MTQ2LDIxMTc5ODEyNTEs
+LTIwNTc1MzA4NzEsLTY3NTY5OTEsMjY3ODI4NjddfQ==
 -->
