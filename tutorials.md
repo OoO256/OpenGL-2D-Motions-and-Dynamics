@@ -70,11 +70,18 @@ OpenGL bind the handle to a target name and then execute commands on that target
 
 ```
 
-### GL_ARRAY_BUFFER
+#### GL_ARRAY_BUFFER
+```
+the buffer will contain an array of vertices
+```
+
+#### GL_ELEMENT_ARRAY_BUFFER 
+```
+means that the buffer contains the indices of the vertices in another buffer. Other targets are also available and we will see them in future tutorials.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NTEwNTEyOSwxOTEwNDI2NzUyLC03Mz
+eyJoaXN0b3J5IjpbLTQyMTA5NTcwNywxOTEwNDI2NzUyLC03Mz
 YwODM0NDgsLTEyNTkxOTIyOTQsODU0MjA2MzEyLDE1NzkzNTAx
 MzgsOTc4ODgyNjg4LC0xNzMwMzc0NjY0LC04NTg5MTQ2LDIxMT
 c5ODEyNTEsLTIwNTc1MzA4NzEsLTY3NTY5OTEsMjY3ODI4Njdd
