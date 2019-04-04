@@ -59,9 +59,12 @@ X, Y, Z [-1.0, 1.0] -> coordinates in screen
 (0, 0, 0) means center of the screen
 ```
 
-#### glGenBuffers(num_object, address)
+#### glGenBuffers(num_object, &VBO)
 ```
-generating objects of various types
+num 개의 object를 저장히기 위한 buffer를 driver가 만들어준다.
+그 헨들을 VBO에 쓴다.
+
+이제부터 VBO가 buffer의 헨들 역활을 한다.
 ```
 #### glBindBuffer(GL_ARRAY_BUFFER, VBO)
 ```
@@ -69,6 +72,9 @@ GL_ARRAY_BUFFER is target
 VBO is handle
 
 GL_ARRAY_BUFFER = VBO;
+
+In OpenGL we bind the handle to a target name and then execute commands on that target.
+잘 모르겠다
 ```
 
 #### GL_ARRAY_BUFFER
