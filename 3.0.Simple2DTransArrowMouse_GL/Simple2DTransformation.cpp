@@ -208,7 +208,7 @@ void display(void) {
 
 	glClear(GL_COLOR_BUFFER_BIT);
 	
-	ModelMatrix = glm::mat4(1.0f);
+	ModelMatrix = glm::mat4(1.0f); // I4
 	ModelViewProjectionMatrix = ViewProjectionMatrix * ModelMatrix;
 	glUniformMatrix4fv(loc_ModelViewProjectionMatrix, 1, GL_FALSE, &ModelViewProjectionMatrix[0][0]);
 	draw_axes();
@@ -335,7 +335,11 @@ void reshape(int width, int height) {
   	glViewport(0, 0, win_width, win_height);
 	ProjectionMatrix = glm::ortho(-win_width / 2.0, win_width / 2.0, 
 		-win_height / 2.0, win_height / 2.0, -1000.0, 1000.0);
+	// orthogonal projection
+	// scale x, y, z to [-1, 1]
+
 	ViewProjectionMatrix = ProjectionMatrix * ViewMatrix;
+	// ViewMatrix = I
 
 	update_axes();
 	update_line();
