@@ -4,28 +4,30 @@ c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl
 c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\object.h(16): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
 c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\object.h(24): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
 c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\object.h(26): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
-c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\main.cpp(31): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
-c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\main.cpp(77): warning C4101: 'delx' :참조되지 않은 지역 변수입니다.
-c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\main.cpp(77): warning C4101: 's' :참조되지 않은 지역 변수입니다.
-c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\main.cpp(77): warning C4101: 'x' :참조되지 않은 지역 변수입니다.
-c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\main.cpp(76): warning C4101: 'i' :참조되지 않은 지역 변수입니다.
-c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\main.cpp(77): warning C4101: 'dels' :참조되지 않은 지역 변수입니다.
-c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\main.cpp(77): warning C4101: 'r' :참조되지 않은 지역 변수입니다.
-c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\main.cpp(77): warning C4101: 'delr' :참조되지 않은 지역 변수입니다.
-c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\main.cpp(128): warning C4305: '*=': 'double'에서 'float'(으)로 잘립니다.
-c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\main.cpp(130): warning C4305: '*=': 'double'에서 'float'(으)로 잘립니다.
-c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\main.cpp(133): warning C4305: '*=': 'double'에서 'float'(으)로 잘립니다.
-c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\main.cpp(135): warning C4305: '*=': 'double'에서 'float'(으)로 잘립니다.
-c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\main.cpp(138): warning C4305: '*=': 'double'에서 'float'(으)로 잘립니다.
-c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\main.cpp(140): warning C4305: '*=': 'double'에서 'float'(으)로 잘립니다.
-c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\main.cpp(143): warning C4305: '*=': 'double'에서 'float'(으)로 잘립니다.
-c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\main.cpp(145): warning C4305: '*=': 'double'에서 'float'(으)로 잘립니다.
-c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\main.cpp(192): warning C4244: '-=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\main.cpp(193): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\main.cpp(257): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\main.cpp(292): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\main.cpp(319): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\main.cpp(346): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\main.cpp(30): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
+c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\main.cpp(66): warning C4101: 'delx' :참조되지 않은 지역 변수입니다.
+c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\main.cpp(66): warning C4101: 's' :참조되지 않은 지역 변수입니다.
+c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\main.cpp(66): warning C4101: 'x' :참조되지 않은 지역 변수입니다.
+c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\main.cpp(65): warning C4101: 'i' :참조되지 않은 지역 변수입니다.
+c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\main.cpp(66): warning C4101: 'dels' :참조되지 않은 지역 변수입니다.
+c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\main.cpp(66): warning C4101: 'r' :참조되지 않은 지역 변수입니다.
+c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\main.cpp(66): warning C4101: 'delr' :참조되지 않은 지역 변수입니다.
+c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\main.cpp(100): warning C4305: '*=': 'double'에서 'float'(으)로 잘립니다.
+c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\main.cpp(102): warning C4305: '*=': 'double'에서 'float'(으)로 잘립니다.
+c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\main.cpp(105): warning C4305: '*=': 'double'에서 'float'(으)로 잘립니다.
+c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\main.cpp(107): warning C4305: '*=': 'double'에서 'float'(으)로 잘립니다.
+c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\main.cpp(110): warning C4305: '*=': 'double'에서 'float'(으)로 잘립니다.
+c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\main.cpp(112): warning C4305: '*=': 'double'에서 'float'(으)로 잘립니다.
+c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\main.cpp(115): warning C4305: '*=': 'double'에서 'float'(으)로 잘립니다.
+c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\main.cpp(117): warning C4305: '*=': 'double'에서 'float'(으)로 잘립니다.
+c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\main.cpp(164): warning C4244: '-=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\main.cpp(165): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\main.cpp(230): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\main.cpp(266): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\main.cpp(294): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\main.cpp(322): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\main.cpp(351): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\main.cpp(377): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\utility(172): warning C4244: '초기화 중': '_Ty'에서 '_Ty1'(으)로 변환하면서 데이터가 손실될 수 있습니다.
           with
           [
@@ -35,13 +37,13 @@ c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\1
           [
               _Ty1=GLfloat
           ]
-  c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\main.cpp(245): note: 컴파일 중인 함수 템플릿 인스턴스화 'std::pair<GLfloat,GLfloat>::pair<double,double,0>(_Other1 &&,_Other2 &&) noexcept'에 대한 참조를 확인하십시오.
+  c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\main.cpp(218): note: 컴파일 중인 함수 템플릿 인스턴스화 'std::pair<GLfloat,GLfloat>::pair<double,double,0>(_Other1 &&,_Other2 &&) noexcept'에 대한 참조를 확인하십시오.
           with
           [
               _Other1=double,
               _Other2=double
           ]
-  c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\main.cpp(237): note: 컴파일 중인 함수 템플릿 인스턴스화 'std::pair<GLfloat,GLfloat>::pair<double,double,0>(_Other1 &&,_Other2 &&) noexcept'에 대한 참조를 확인하십시오.
+  c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\main.cpp(210): note: 컴파일 중인 함수 템플릿 인스턴스화 'std::pair<GLfloat,GLfloat>::pair<double,double,0>(_Other1 &&,_Other2 &&) noexcept'에 대한 참조를 확인하십시오.
           with
           [
               _Other1=double,
@@ -56,23 +58,53 @@ c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\1
           [
               _Ty2=GLfloat
           ]
-  axes.cpp
-c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\main.h(30): warning C4005: 'DEBUG': 매크로 재정의
-  c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\main.h(28): note: 'DEBUG'의 이전 정의를 참조하십시오.
+c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\utility(172): warning C4244: '초기화 중': '_Ty'에서 '_Ty1'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=int
+          ]
+          and
+          [
+              _Ty1=GLfloat
+          ]
+  c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\main.cpp(336): note: 컴파일 중인 함수 템플릿 인스턴스화 'std::pair<GLfloat,GLfloat>::pair<int,int,0>(_Other1 &&,_Other2 &&) noexcept'에 대한 참조를 확인하십시오.
+          with
+          [
+              _Other1=int,
+              _Other2=int
+          ]
+  c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\main.cpp(328): note: 컴파일 중인 함수 템플릿 인스턴스화 'std::pair<GLfloat,GLfloat>::pair<int,int,0>(_Other1 &&,_Other2 &&) noexcept'에 대한 참조를 확인하십시오.
+          with
+          [
+              _Other1=int,
+              _Other2=int
+          ]
+c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\utility(173): warning C4244: '초기화 중': '_Ty'에서 '_Ty2'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=int
+          ]
+          and
+          [
+              _Ty2=GLfloat
+          ]
   object.cpp
 c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\main.h(30): warning C4005: 'DEBUG': 매크로 재정의
   c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\main.h(28): note: 'DEBUG'의 이전 정의를 참조하십시오.
 c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\object.h(16): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
 c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\object.h(24): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
 c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\object.h(26): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
-c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\object.cpp(74): warning C4305: '*=': 'double'에서 'float'(으)로 잘립니다.
-c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\object.cpp(76): warning C4305: '*=': 'double'에서 'float'(으)로 잘립니다.
-c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\object.cpp(79): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
-c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\object.cpp(105): warning C4267: '+=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\object.cpp(127): warning C4267: '인수': 'size_t'에서 'GLsizei'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\object.cpp(128): warning C4267: '+=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\object.cpp(243): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\object.cpp(269): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\object.cpp(67): warning C4305: '*=': 'double'에서 'float'(으)로 잘립니다.
+c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\object.cpp(69): warning C4305: '*=': 'double'에서 'float'(으)로 잘립니다.
+c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\object.cpp(73): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\object.cpp(99): warning C4267: '+=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\object.cpp(121): warning C4267: '인수': 'size_t'에서 'GLsizei'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\object.cpp(122): warning C4267: '+=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\object.cpp(219): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\object.cpp(245): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\object.cpp(303): warning C4305: '*=': 'double'에서 'float'(으)로 잘립니다.
+c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\object.cpp(305): warning C4305: '*=': 'double'에서 'float'(으)로 잘립니다.
+c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\object.cpp(309): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
 c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\utility(172): warning C4244: '초기화 중': '_Ty'에서 '_Ty1'(으)로 변환하면서 데이터가 손실될 수 있습니다.
           with
           [
@@ -82,13 +114,13 @@ c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\1
           [
               _Ty1=GLfloat
           ]
-  c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\object.cpp(231): note: 컴파일 중인 함수 템플릿 인스턴스화 'std::pair<GLfloat,GLfloat>::pair<int,int,0>(_Other1 &&,_Other2 &&) noexcept'에 대한 참조를 확인하십시오.
+  c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\object.cpp(207): note: 컴파일 중인 함수 템플릿 인스턴스화 'std::pair<GLfloat,GLfloat>::pair<int,int,0>(_Other1 &&,_Other2 &&) noexcept'에 대한 참조를 확인하십시오.
           with
           [
               _Other1=int,
               _Other2=int
           ]
-  c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\object.cpp(223): note: 컴파일 중인 함수 템플릿 인스턴스화 'std::pair<GLfloat,GLfloat>::pair<int,int,0>(_Other1 &&,_Other2 &&) noexcept'에 대한 참조를 확인하십시오.
+  c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\object.cpp(199): note: 컴파일 중인 함수 템플릿 인스턴스화 'std::pair<GLfloat,GLfloat>::pair<int,int,0>(_Other1 &&,_Other2 &&) noexcept'에 대한 참조를 확인하십시오.
           with
           [
               _Other1=int,
@@ -103,10 +135,9 @@ c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\1
           [
               _Ty2=GLfloat
           ]
-  LoadShaders.cpp
-c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\shaders\loadshaders.cpp(11): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(207): note: 'fopen' 선언을 참조하십시오.
   코드를 생성하고 있습니다.
-  All 419 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  113 of 481 functions (23.5%) were compiled, the rest were copied from previous compilation.
+    65 functions were new in current compilation
+    26 functions had inline decision re-evaluated but remain unchanged
   코드를 생성했습니다.
   3.0.Simple2DTransArrowMouse_GL.vcxproj -> C:\Users\ACM_ICPC\Desktop\GR\2D-Graphics-Practice\x64\Release\3.0.Simple2DTransArrowMouse_GL.exe
