@@ -17,6 +17,8 @@
 
 #define LOC_VERTEX 0
 
+constexpr float gravity_constant = 1000.0f;
+
 extern int win_width, win_height;
 extern float centerx, centery, rotate_angle;
 
