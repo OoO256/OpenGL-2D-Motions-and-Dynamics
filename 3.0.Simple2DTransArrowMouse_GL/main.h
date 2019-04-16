@@ -9,6 +9,7 @@
 #include <vector>
 #include <utility>
 #include <array>
+#include <string>
 #include <glm/gtc/matrix_transform.hpp> //translate, rotate, scale, ortho, etc.
 
 #define TO_RADIAN 0.01745329252f  

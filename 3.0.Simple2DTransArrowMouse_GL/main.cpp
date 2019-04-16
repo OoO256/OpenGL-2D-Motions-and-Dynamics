@@ -13,9 +13,6 @@ glm::mat4 ViewMatrix, ProjectionMatrix, ViewProjectionMatrix;
 int win_width = 900, win_height = 900;
 float centerx = 0.0f, centery = 0.0f, rotate_angle = 0.0f;
 
-using t_time = std::chrono::milliseconds;
-
-auto last_Crashed = std::chrono::high_resolution_clock::now();
 
 std::vector<BlackHole *>blackholes;
 std::vector<Object* >objects;
@@ -32,12 +29,7 @@ void checkCrash() {
 	{
 		for (int j = i+1; j < objects.size(); j++)
 		{
-			if (glm::distance(objects[i]->position, objects[j]->position) < objects[i]->radius + objects[j]->radius 
-				&& (std::chrono::duration_cast<std::chrono::milliseconds>(
-				std::chrono::high_resolution_clock::now() - last_Crashed)).count() > -1) {
-				
-				
-				auto diff = std::chrono::high_resolution_clock::now() - last_Crashed;
+			if (glm::distance(objects[i]->position, objects[j]->position) < objects[i]->radius + objects[j]->radius ) {
 
 				glm::vec3 v1 = objects[i]->velocity;
 				glm::vec3 v2 = objects[j]->velocity;
@@ -52,8 +44,6 @@ void checkCrash() {
 					objects[i]->velocity = v1 - m2 * (1 + 0) / (m1 + m2) * (v1 - v2);
 					objects[j]->velocity = v2 + m1 * (1 + 0) / (m1 + m2) * (v1 - v2);
 				}
-
-				last_Crashed = std::chrono::high_resolution_clock::now();
 			}
 		}
 	}
@@ -200,7 +190,7 @@ void initialize_OpenGL(void) {
 	glEnable(GL_MULTISAMPLE);
 	glPolygonMode(GL_FRONT_AND_BACK, GL_FILL);
 
-	glClearColor(10 / 255.0f, 0 / 255.0f, 30 / 255.0f, 1.0f);
+	glClearColor(20 / 255.0f, 10 / 255.0f, 50 / 255.0f, 1.0f);
 	ViewMatrix = glm::mat4(1.0f);
 }
 
@@ -231,13 +221,14 @@ void prepare_scene(void) {
 	airplane1->base_orientation = 90 * TO_RADIAN;
 	airplane1->mass = 1.5;
 	airplane1->prepare();
+	airplane1->name = "airplane1";
 	
 
 	mouse1 = new Mouse();
 	prepare_axes();
 
 
-	Object* car1 = new Object();
+	Car* car1 = new Car();
 	objects.push_back(car1);
 	car1->figures =
 	{
@@ -265,7 +256,7 @@ void prepare_scene(void) {
 	car1->prepare();
 	car1->radius = sqrt(16*16+8*8);
 
-	Object* car2 = new Object({-100, 0, 0}, {0,0,0}, {0,0,0});
+	Car* car2 = new Car({-100, 0, 0}, {0,0,0}, {0,0,0});
 	objects.push_back(car2);
 	car2->figures =
 	{
@@ -321,6 +312,8 @@ void prepare_scene(void) {
 	sword1->prepare();
 	sword1->radius = sqrt(19.46*19.46);
 	sword1->friction_rate = 0;
+	sword1->name = "sword1";
+
 
 
 	House* house1 = new House({ 0,200,0 }, { 10,0,0 }, { 0, 0, 0 });
@@ -348,7 +341,8 @@ void prepare_scene(void) {
 	house1->friction_rate = 0.5;
 	house1->scale = { 3, 1, 0 };
 	house1->prepare();
-	house1->radius = sqrt(12*12 + 14*14);
+	house1->radius = sqrt(10*10 + 14*14);
+	house1->name = "house1";
 
 
 	Object *cocktail1 = new Object({ 0,-100,0 }, { 10,0,0 }, { 0, 0, 0 });
@@ -375,6 +369,8 @@ void prepare_scene(void) {
 	cocktail1->scale = { 1, 2, 0 };
 	cocktail1->prepare();
 	cocktail1->radius = sqrt(12 * 12 + 10 * 10);
+	cocktail1->name = "cocktail1";
+
 
 
 

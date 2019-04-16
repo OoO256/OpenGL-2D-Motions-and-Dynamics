@@ -4,6 +4,8 @@
 class Object
 {
 public:
+	std::string name;
+
 	GLuint VBO, VAO;
 	std::vector<std::vector<vertex>> figures;
 	std::vector<std::array<float, 3>> colors;
@@ -77,4 +79,17 @@ public:
 	virtual void move();
 	~BlackHole() = default;
 
+};
+
+class Car : public Object
+{
+public:
+	Car() : Object() {};
+	Car(glm::vec3 p, glm::vec3 v, glm::vec3 a) :
+		Object(p, v, a) {};
+
+	float shear_constant = 0.01;
+
+	virtual void move();
+	~Car() = default;
 };
