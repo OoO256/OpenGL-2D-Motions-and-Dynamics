@@ -34,7 +34,7 @@ void checkCrash() {
 		{
 			if (glm::distance(objects[i]->position, objects[j]->position) < objects[i]->radius + objects[j]->radius 
 				&& (std::chrono::duration_cast<std::chrono::milliseconds>(
-				std::chrono::high_resolution_clock::now() - last_Crashed)).count() > 100) {
+				std::chrono::high_resolution_clock::now() - last_Crashed)).count() > -1) {
 				
 				
 				auto diff = std::chrono::high_resolution_clock::now() - last_Crashed;

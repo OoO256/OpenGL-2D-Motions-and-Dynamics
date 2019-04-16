@@ -71,7 +71,7 @@ void Object::getIntoBlackhole()
 
 	if (shear > 1000) {
 		shear = 0.01;
-		position = glm::vec3({1, 0, 0}) * float(rand()%800 - 400);
+		position = glm::vec3({ float(rand() % (win_width - 50) - win_width / 2),  float(rand() % (win_height - 50) - win_height / 2), 0 });
 		velocity = glm::vec3(0);
 		acceleration = glm::vec3(0);
 		scale = glm::vec3(1);
@@ -173,12 +173,26 @@ void Object::move() {
 	if (velocity != glm::vec3(0) && length(velocity) > 1)
 		orientation = std::atan2(velocity.y, velocity.x) + base_orientation;
 
-	if (position.x<-win_width / 2 + radius || position.x > win_width / 2 - radius) {
+	if (position.x<-win_width / 2 + radius) 
+	{
 		velocity.x *= -1;
+		position.x += 10;
 	}
-	if (position.y<-win_height / 2 + radius || position.y > win_height / 2 - radius) {
+	else if (position.x > win_width / 2 - radius) 
+	{
+		velocity.x *= -1;
+		position.x -= 10;
+	}
+	else if (position.y<-win_height / 2 + radius)
+	{
 		velocity.y *= -1;
-	}	
+		position.y += 10;
+	}
+	else if (position.y > win_height / 2 - radius)
+	{
+		velocity.y *= -1;
+		position.y -= 10;
+	}
 }
 
 void  Object::print() {
@@ -305,9 +319,10 @@ void House::getIntoBlackhole()
 	mass *= 0.99;
 	orientation += 1;
 
+
 	if (shear > 1000) {
 		shear = 0.01;
-		position = glm::vec3({ 1, 0, 0 }) * float(rand() % 800 - 400);
+		position = glm::vec3({ float(rand() % (win_width - 50) - win_width / 2),  float(rand() % (win_height - 50) - win_height / 2), 0 });
 		velocity = glm::vec3(0);
 		acceleration = glm::vec3(0);
 
