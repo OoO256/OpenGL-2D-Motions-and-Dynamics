@@ -65,13 +65,14 @@ glm::mat4 Object::genModelMatrix()
 
 void Object::getIntoBlackhole()
 {
-	velocity *= 0.9;
-	shear *= 1.05;
-	scale *= 0.99;
-	mass *= 0.99;
+	velocity *= 0;
+	shear *= 1.01;
+	scale *= 0.9999;
+	mass *= 0.9999;
 	orientation += 1;
 
-	if (shear > 1000) {
+
+	if (abs(shear) > 500) {
 		shear = 0.01;
 		position = glm::vec3({ float(rand() % (win_width - 50) - win_width / 2),  float(rand() % (win_height - 50) - win_height / 2), 0 });
 		velocity = glm::vec3(0);
@@ -83,6 +84,10 @@ void Object::getIntoBlackhole()
 
 			mass = 1.5;
 			radius = sqrt(800);
+		}
+
+		if (name == "cocktail1") {
+			scale = { 1, 2, 0 };
 		}
 	}
 }
@@ -608,21 +613,21 @@ void House::move()
 
 void House::getIntoBlackhole()
 {
-	velocity *= 0.9;
-	shear *= 1.05;
-	scale *= 0.99;
-	mass *= 0.99;
+	velocity *= 0;
+	shear *= 1.01;
+	scale *= 0.9999;
+	mass *= 0.9999;
 	orientation += 1;
 
 
-	if (shear > 1000) {
+	if (shear > 500) {
 		shear = 0.01;
 		position = glm::vec3({ float(rand() % (win_width - 50) - win_width / 2),  float(rand() % (win_height - 50) - win_height / 2), 0 });
 		velocity = glm::vec3(0);
 		acceleration = glm::vec3(0);
-
+		scale = glm::vec3(1);
 		mass = 10;
-		scale = { 3, 1, 0 };
+		scale = { 3, 1, 0 };	
 	}
 }
 
@@ -647,24 +652,49 @@ void Car::move() {
 	auto a = glm::length(glm::vec3( 2,1, 1 ));
 
 	acceleration = glm::vec3(0);
-	for (int i = 0; i< 4; i++) {
 
-		if (glm::length(pos_blackholes[i] - position) > 10) {
+	bool isInBlackHole = false;
+
+	for (int i = 0; i < 4; i++) {
+
+		isInBlackHole |= glm::length(pos_blackholes[i] - position) < 10;
+	}
+			
+	if(isInBlackHole){
+		getIntoBlackhole();
+	}
+	else
+	{
+		for (int i = 0; i < 4; i++) {
 			acceleration += gravity_constant / dot(pos_blackholes[i] - position, pos_blackholes[i] - position) * glm::normalize(pos_blackholes[i] - position);
-
-			shear += shear_constant;
-
-			if (shear > 1) {
-				shear_constant *= -1;
-			}
-			else if (shear < -1) {
-				shear_constant *= -1;
-			}
-
 		}
-		else
-		{
-			getIntoBlackhole();
+
+		shear += shear_constant;
+
+		if (shear > 1) {
+			shear_constant *= -1;
+		}
+		else if (shear < -1) {
+			shear_constant *= -1;
+		}
+		
+		if (abs(shear) > 2) {
+			shear = 0.01;
+			position = glm::vec3({ float(rand() % (win_width - 50) - win_width / 2),  float(rand() % (win_height - 50) - win_height / 2), 0 });
+			velocity = glm::vec3(0);
+			acceleration = glm::vec3(0);
+			scale = glm::vec3(1);
+			mass = 1;
+
+			if (name == "airplane1") {
+
+				mass = 1.5;
+				radius = sqrt(800);
+			}
+
+			if (name == "cocktail1") {
+				scale = { 1, 2, 0 };
+			}
 		}
 	}
 

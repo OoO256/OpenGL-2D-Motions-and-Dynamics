@@ -106,6 +106,11 @@ void keyboard(unsigned char key, int x, int y) {
 		airplane1->scale *= 1.1;
 		airplane1->mass *= 1.1;
 		break;
+	case 'c':
+		objects[1]->print();
+		std::cout << objects[1]->shear << std::endl;
+		objects[2]->print();
+		break;
 	case ' ':
 		if(airplane1->velocity != glm::vec3(0))
 			airplane1->velocity += glm::normalize(airplane1->velocity) * 5.0f;
@@ -160,7 +165,7 @@ void mouse(int button, int state, int x, int y) {
 	glutPostRedisplay();
 
 
-	DEBUG(airplane1->print());
+	//DEBUG(airplane1->print());
 }
 
 void register_callbacks(void) {
@@ -255,6 +260,7 @@ void prepare_scene(void) {
 	car1->base_orientation = 270 * TO_RADIAN;
 	car1->prepare();
 	car1->radius = sqrt(16*16+8*8);
+	car1->name = "car";
 
 	Car* car2 = new Car({-100, 0, 0}, {0,0,0}, {0,0,0});
 	objects.push_back(car2);
@@ -283,6 +289,7 @@ void prepare_scene(void) {
 	car2->base_orientation = 270 * TO_RADIAN;
 	car2->prepare();
 	car2->radius = sqrt(16 * 16 + 8 * 8);
+	car1->name = "car";
 
 	Sword* sword1 = new Sword({ 0,100,0 }, { 10,10,0 }, {0, -1, 0});
 	objects.push_back(sword1);

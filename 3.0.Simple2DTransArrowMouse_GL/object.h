@@ -84,9 +84,11 @@ public:
 class Car : public Object
 {
 public:
-	Car() : Object() {};
+	Car() : Object() { name = "car"; };
 	Car(glm::vec3 p, glm::vec3 v, glm::vec3 a) :
-		Object(p, v, a) {};
+		Object(p, v, a) {
+		name = "car";
+	};
 
 	float shear_constant = 0.01;
 

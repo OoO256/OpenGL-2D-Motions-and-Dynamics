@@ -4,27 +4,27 @@ c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl
 c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\object.h(18): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
 c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\object.h(26): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
 c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\object.h(28): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
-c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\object.h(91): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
+c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\object.h(93): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
 c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\object.cpp(69): warning C4305: '*=': 'double'에서 'float'(으)로 잘립니다.
 c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\object.cpp(71): warning C4305: '*=': 'double'에서 'float'(으)로 잘립니다.
-c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\object.cpp(75): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
-c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\object.cpp(85): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\object.cpp(126): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\object.cpp(247): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\object.cpp(534): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\object.cpp(581): warning C4244: '+=': 'double'에서 'T'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-          with
-          [
-              T=float
-          ]
+c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\object.cpp(76): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\object.cpp(86): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\object.cpp(127): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\object.cpp(248): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\object.cpp(535): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\object.cpp(582): warning C4244: '+=': 'double'에서 'T'(으)로 변환하면서 데이터가 손실될 수 있습니다.
           with
           [
               T=float
           ]
-c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\object.cpp(612): warning C4305: '*=': 'double'에서 'float'(으)로 잘립니다.
-c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\object.cpp(614): warning C4305: '*=': 'double'에서 'float'(으)로 잘립니다.
-c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\object.cpp(619): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\object.cpp(583): warning C4244: '+=': 'double'에서 'T'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              T=float
+          ]
+c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\object.cpp(613): warning C4305: '*=': 'double'에서 'float'(으)로 잘립니다.
+c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\object.cpp(615): warning C4305: '*=': 'double'에서 'float'(으)로 잘립니다.
+c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\object.cpp(620): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
 c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\utility(172): warning C4244: '초기화 중': '_Ty'에서 '_Ty1'(으)로 변환하면서 데이터가 손실될 수 있습니다.
           with
           [
@@ -34,13 +34,13 @@ c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\1
           [
               _Ty1=GLfloat
           ]
-  c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\object.cpp(235): note: 컴파일 중인 함수 템플릿 인스턴스화 'std::pair<GLfloat,GLfloat>::pair<int,int,0>(_Other1 &&,_Other2 &&) noexcept'에 대한 참조를 확인하십시오.
+  c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\object.cpp(236): note: 컴파일 중인 함수 템플릿 인스턴스화 'std::pair<GLfloat,GLfloat>::pair<int,int,0>(_Other1 &&,_Other2 &&) noexcept'에 대한 참조를 확인하십시오.
           with
           [
               _Other1=int,
               _Other2=int
           ]
-  c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\object.cpp(227): note: 컴파일 중인 함수 템플릿 인스턴스화 'std::pair<GLfloat,GLfloat>::pair<int,int,0>(_Other1 &&,_Other2 &&) noexcept'에 대한 참조를 확인하십시오.
+  c:\users\acm_icpc\desktop\gr\2d-graphics-practice\3.0.simple2dtransarrowmouse_gl\object.cpp(228): note: 컴파일 중인 함수 템플릿 인스턴스화 'std::pair<GLfloat,GLfloat>::pair<int,int,0>(_Other1 &&,_Other2 &&) noexcept'에 대한 참조를 확인하십시오.
           with
           [
               _Other1=int,
@@ -56,7 +56,7 @@ c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\1
               _Ty2=GLfloat
           ]
   코드를 생성하고 있습니다.
-  1 of 529 functions ( 0.2%) were compiled, the rest were copied from previous compilation.
+  1 of 530 functions ( 0.2%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
     1 functions had inline decision re-evaluated but remain unchanged
   코드를 생성했습니다.
